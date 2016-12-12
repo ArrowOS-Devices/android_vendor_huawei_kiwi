@@ -1389,7 +1389,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kiwi/proprietary/lib64/hw/fingerprint.msm8916.so:system/lib64/hw/fingerprint.msm8916.so \
     vendor/huawei/kiwi/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/huawei/kiwi/proprietary/lib64/libservices.huawei.so:system/lib64/libservices.huawei.so \
-    vendor/huawei/kiwi/proprietary//sbin/signinfolistener:root//sbin/signinfolistener \
+    vendor/huawei/kiwi/proprietary/bin/signinfolistener:system/bin/signinfolistener \
     vendor/huawei/kiwi/proprietary/vendor/lib64/hw/gatekeeper.msm8916.so:system/vendor/lib64/hw/gatekeeper.msm8916.so \
     vendor/huawei/kiwi/proprietary/bin/garden_app:system/bin/garden_app \
     vendor/huawei/kiwi/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
@@ -1526,6 +1526,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kiwi/proprietary/bin/radish:system/bin/radish \
     vendor/huawei/kiwi/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/huawei/kiwi/proprietary/bin/rild:system/bin/rild \
+    vendor/huawei/kiwi/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/huawei/kiwi/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/huawei/kiwi/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/huawei/kiwi/proprietary/lib/libhuawei_secure.so:system/lib/libhuawei_secure.so \
@@ -1552,15 +1553,9 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
-    vendor/huawei/kiwi/proprietary//sbin/chargelog.sh:root//sbin/chargelog.sh \
-    vendor/huawei/kiwi/proprietary//sbin/e2fsck_s:root//sbin/e2fsck_s \
-    vendor/huawei/kiwi/proprietary//sbin/fsck_msdos_s:root//sbin/fsck_msdos_s \
-    vendor/huawei/kiwi/proprietary//sbin/hdbd:root//sbin/hdbd \
-    vendor/huawei/kiwi/proprietary//sbin/huawei_mmc_monitor:root//sbin/huawei_mmc_monitor \
     vendor/huawei/kiwi/proprietary//sbin/huawei_version:root//sbin/huawei_version \
     vendor/huawei/kiwi/proprietary//sbin/libqmi_oem_main:root//sbin/libqmi_oem_main \
     vendor/huawei/kiwi/proprietary//sbin/rmt_oeminfo:root//sbin/rmt_oeminfo \
-    vendor/huawei/kiwi/proprietary//sbin/rmt_storage:root//sbin/rmt_storage \
     vendor/huawei/kiwi/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.msm8916.so \
     vendor/huawei/kiwi/proprietary/lib/libdmd.so:system/lib/libdmd.so \
     vendor/huawei/kiwi/proprietary/lib64/libdmd.so:system/lib64/libdmd.so \
