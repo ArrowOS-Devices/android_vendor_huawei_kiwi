@@ -1525,7 +1525,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kiwi/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/huawei/kiwi/proprietary/bin/radish:system/bin/radish \
     vendor/huawei/kiwi/proprietary/bin/rfs_access:system/bin/rfs_access \
-    vendor/huawei/kiwi/proprietary/bin/rild:system/bin/rild \
     vendor/huawei/kiwi/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/huawei/kiwi/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/huawei/kiwi/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
@@ -1537,8 +1536,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kiwi/proprietary/lib64/lib_oeminfo_interface.so:system/lib64/lib_oeminfo_interface.so \
     vendor/huawei/kiwi/proprietary/lib64/liboeminfo.so:system/lib64/liboeminfo.so \
     vendor/huawei/kiwi/proprietary/lib64/libqmi_nv_api.so:system/lib64/libqmi_nv_api.so \
-    vendor/huawei/kiwi/proprietary/lib64/libril.so:system/lib64/libril.so \
-    vendor/huawei/kiwi/proprietary/lib64/librilutils.so:system/lib64/librilutils.so \
     vendor/huawei/kiwi/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
     vendor/huawei/kiwi/proprietary/lib64/libsecure_boot_keybox.so:system/lib64/libsecure_boot_keybox.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
