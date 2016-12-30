@@ -1380,9 +1380,9 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
-    vendor/huawei/kiwi/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+    vendor/huawei/kiwi/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/huawei/kiwi/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+    vendor/huawei/kiwi/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/huawei/kiwi/proprietary/lib64/hw/fingerprintd.ex.so:system/lib64/hw/fingerprintd.ex.so \
