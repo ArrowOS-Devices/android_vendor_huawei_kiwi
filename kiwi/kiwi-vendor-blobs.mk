@@ -909,35 +909,16 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kiwi/proprietary/lib64/libservices.huawei.so:system/lib64/libservices.huawei.so \
     vendor/huawei/kiwi/proprietary/bin/signinfolistener:system/bin/signinfolistener \
     vendor/huawei/kiwi/proprietary/vendor/lib64/hw/gatekeeper.msm8916.so:system/vendor/lib64/hw/gatekeeper.msm8916.so \
-    vendor/huawei/kiwi/proprietary/bin/garden_app:system/bin/garden_app \
-    vendor/huawei/kiwi/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
-    vendor/huawei/kiwi/proprietary/bin/lowi-server:system/bin/lowi-server \
-    vendor/huawei/kiwi/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
-    vendor/huawei/kiwi/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/huawei/kiwi/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
-    vendor/huawei/kiwi/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
-    vendor/huawei/kiwi/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
-    vendor/huawei/kiwi/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
-    vendor/huawei/kiwi/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
-    vendor/huawei/kiwi/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
-    vendor/huawei/kiwi/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
-    vendor/huawei/kiwi/proprietary/vendor/lib64/libxtwifi_zpp_adaptor.so:system/vendor/lib64/libxtwifi_zpp_adaptor.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
-    vendor/huawei/kiwi/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
-    vendor/huawei/kiwi/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
-    vendor/huawei/kiwi/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
-    vendor/huawei/kiwi/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
-    vendor/huawei/kiwi/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
-    vendor/huawei/kiwi/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
-    vendor/huawei/kiwi/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/egl/eglsubAndroid.so:system/vendor/lib64/egl/eglsubAndroid.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
