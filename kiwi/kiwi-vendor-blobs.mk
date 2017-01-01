@@ -971,16 +971,11 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kiwi/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
     vendor/huawei/kiwi/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
     vendor/huawei/kiwi/proprietary/vendor/lib64/hw/keystore.msm8916.so:system/vendor/lib64/hw/keystore.msm8916.so \
-    vendor/huawei/kiwi/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
-    vendor/huawei/kiwi/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
-    vendor/huawei/kiwi/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
-    vendor/huawei/kiwi/proprietary/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
-    vendor/huawei/kiwi/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
     vendor/huawei/kiwi/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/huawei/kiwi/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
@@ -1076,31 +1071,14 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kiwi/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/huawei/kiwi/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/huawei/kiwi/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
-    vendor/huawei/kiwi/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
-    vendor/huawei/kiwi/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
-    vendor/huawei/kiwi/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
-    vendor/huawei/kiwi/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
-    vendor/huawei/kiwi/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
-    vendor/huawei/kiwi/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
-    vendor/huawei/kiwi/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
-    vendor/huawei/kiwi/proprietary/etc/firmware/ale-HB3742A0EBC+_ATL_SCUD.fw:system/etc/firmware/ale-HB3742A0EBC+_ATL_SCUD.fw \
-    vendor/huawei/kiwi/proprietary/etc/firmware/ale-HB3742A0EBC+_LS_LS.fw:system/etc/firmware/ale-HB3742A0EBC+_LS_LS.fw \
-    vendor/huawei/kiwi/proprietary/etc/firmware/ale-HB3742A0EBC+_SDI_SWD.fw:system/etc/firmware/ale-HB3742A0EBC+_SDI_SWD.fw \
     vendor/huawei/kiwi/proprietary/etc/firmware/Alice_fw.bin:system/etc/firmware/Alice_fw.bin \
     vendor/huawei/kiwi/proprietary/etc/firmware/athena_boe_fw.img:system/etc/firmware/athena_boe_fw.img \
     vendor/huawei/kiwi/proprietary/etc/firmware/athena_jdi_fw.img:system/etc/firmware/athena_jdi_fw.img \
-    vendor/huawei/kiwi/proprietary/etc/firmware/ATH_miniBoot.bin:system/etc/firmware/ATH_miniBoot.bin \
-    vendor/huawei/kiwi/proprietary/etc/firmware/ATH_TBM_Latour2.bin:system/etc/firmware/ATH_TBM_Latour2.bin \
-    vendor/huawei/kiwi/proprietary/etc/firmware/g620A_eely_fw.img:system/etc/firmware/g620A_eely_fw.img \
-    vendor/huawei/kiwi/proprietary/etc/firmware/g620A_ofilm_fw.img:system/etc/firmware/g620A_ofilm_fw.img \
     vendor/huawei/kiwi/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
     vendor/huawei/kiwi/proprietary/etc/firmware/kiw-HB396481EBC_ATL_SCUD.fw:system/etc/firmware/kiw-HB396481EBC_ATL_SCUD.fw \
     vendor/huawei/kiwi/proprietary/etc/firmware/kiw-HB396481EBC_SONY_SWD.fw:system/etc/firmware/kiw-HB396481EBC_SONY_SWD.fw \
     vendor/huawei/kiwi/proprietary/etc/firmware/Kiwi_fw.bin:system/etc/firmware/Kiwi_fw.bin \
     vendor/huawei/kiwi/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/huawei/kiwi/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
-    vendor/huawei/kiwi/proprietary/etc/firmware/Rio_fw.bin:system/etc/firmware/Rio_fw.bin \
-    vendor/huawei/kiwi/proprietary/etc/firmware/RIO_miniBoot.bin:system/etc/firmware/RIO_miniBoot.bin \
-    vendor/huawei/kiwi/proprietary/etc/firmware/RIO_TBM_Latour2.bin:system/etc/firmware/RIO_TBM_Latour2.bin \
     vendor/huawei/kiwi/proprietary/etc/firmware/T2A_fw.bin:system/etc/firmware/T2A_fw.bin \
     vendor/huawei/kiwi/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so
