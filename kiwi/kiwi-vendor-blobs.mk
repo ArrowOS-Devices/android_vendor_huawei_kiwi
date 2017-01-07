@@ -35,6 +35,18 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kiwi/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+    vendor/huawei/kiwi/proprietary/etc/sound_param/kiw/Headset_cal.acdb:system/etc/sound_param/kiw/Headset_cal.acdb \
+    vendor/huawei/kiwi/proprietary/etc/sound_param/kiw/Bluetooth_cal.acdb:system/etc/sound_param/kiw/Bluetooth_cal.acdb \
+    vendor/huawei/kiwi/proprietary/etc/sound_param/kiw/Speaker_cal.acdb:system/etc/sound_param/kiw/Speaker_cal.acdb \
+    vendor/huawei/kiwi/proprietary/etc/sound_param/kiw/General_cal.acdb:system/etc/sound_param/kiw/General_cal.acdb \
+    vendor/huawei/kiwi/proprietary/etc/sound_param/kiw/Hdmi_cal.acdb:system/etc/sound_param/kiw/Hdmi_cal.acdb \
+    vendor/huawei/kiwi/proprietary/etc/sound_param/kiw/Global_cal.acdb:system/etc/sound_param/kiw/Global_cal.acdb \
+    vendor/huawei/kiwi/proprietary/etc/sound_param/kiw/Handset_cal.acdb:system/etc/sound_param/kiw/Handset_cal.acdb \
+    vendor/huawei/kiwi/proprietary/etc/sound_param/kiw/nxp/Tfa9895-AAC.cnt:system/etc/sound_param/kiw/nxp/Tfa9895-AAC.cnt \
+    vendor/huawei/kiwi/proprietary/etc/sound_param/kiw/nxp/Tfa9895.cnt:system/etc/sound_param/kiw/nxp/Tfa9895.cnt \
+    vendor/huawei/kiwi/proprietary/etc/sound_param/kiw/nxp/Tfa9895_coefficient.config:system/etc/sound_param/kiw/nxp/Tfa9895_coefficient.config \
+    vendor/huawei/kiwi/proprietary/etc/sound_param/kiw/nxp/Tfa9895-GD.cnt:system/etc/sound_param/kiw/nxp/Tfa9895-GD.cnt \
+    vendor/huawei/kiwi/proprietary/etc/sound_param/kiw/nxp/Tfa9895-GK.cnt:system/etc/sound_param/kiw/nxp/Tfa9895-GK.cnt \
     vendor/huawei/kiwi/proprietary/etc/sound_param/kiw_l/Headset_cal.acdb:system/etc/sound_param/kiw_l/Headset_cal.acdb \
     vendor/huawei/kiwi/proprietary/etc/sound_param/kiw_l/Bluetooth_cal.acdb:system/etc/sound_param/kiw_l/Bluetooth_cal.acdb \
     vendor/huawei/kiwi/proprietary/etc/sound_param/kiw_l/Speaker_cal.acdb:system/etc/sound_param/kiw_l/Speaker_cal.acdb \
