@@ -916,7 +916,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kiwi/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/huawei/kiwi/proprietary/lib64/hw/fingerprintd.ex.so:system/lib64/hw/fingerprintd.ex.so \
-    vendor/huawei/kiwi/proprietary/lib64/hw/fingerprint.msm8916.so:system/lib64/hw/fingerprint.msm8916.so \
+    vendor/huawei/kiwi/proprietary/lib64/hw/fingerprint.vendor.msm8916.so:system/lib64/hw/fingerprint.vendor.msm8916.so \
     vendor/huawei/kiwi/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/huawei/kiwi/proprietary/lib64/libservices.huawei.so:system/lib64/libservices.huawei.so \
     vendor/huawei/kiwi/proprietary/bin/signinfolistener:system/bin/signinfolistener \
