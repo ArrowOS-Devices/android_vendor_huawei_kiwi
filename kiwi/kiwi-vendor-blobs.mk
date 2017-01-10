@@ -1056,9 +1056,9 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
-    vendor/huawei/kiwi/proprietary//sbin/huawei_version:root//sbin/huawei_version \
-    vendor/huawei/kiwi/proprietary//sbin/libqmi_oem_main:root//sbin/libqmi_oem_main \
-    vendor/huawei/kiwi/proprietary//sbin/rmt_oeminfo:root//sbin/rmt_oeminfo \
+    vendor/huawei/kiwi/proprietary/bin/huawei_version:system/bin/huawei_version \
+    vendor/huawei/kiwi/proprietary/bin/libqmi_oem_main:system/bin/libqmi_oem_main \
+    vendor/huawei/kiwi/proprietary/bin/rmt_oeminfo:system/bin/rmt_oeminfo \
     vendor/huawei/kiwi/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.msm8916.so \
     vendor/huawei/kiwi/proprietary/lib/libdmd.so:system/lib/libdmd.so \
     vendor/huawei/kiwi/proprietary/lib64/libdmd.so:system/lib64/libdmd.so \
