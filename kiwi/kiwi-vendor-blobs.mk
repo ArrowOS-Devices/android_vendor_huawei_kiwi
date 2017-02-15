@@ -1030,7 +1030,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kiwi/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/huawei/kiwi/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/huawei/kiwi/proprietary/bin/radish:system/bin/radish \
-    vendor/huawei/kiwi/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/huawei/kiwi/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/huawei/kiwi/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/huawei/kiwi/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
