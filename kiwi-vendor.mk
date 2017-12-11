@@ -87,6 +87,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kiwi/proprietary/vendor/lib/libqmi_nv_api.so:system/vendor/lib/libqmi_nv_api.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/hw/fingerprint.msm8916.so:system/vendor/lib64/hw/fingerprint.msm8916.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/hw/fingerprintd.ex.so:system/vendor/lib64/hw/fingerprintd.ex.so \
+    vendor/huawei/kiwi/proprietary/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so \
+    vendor/huawei/kiwi/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/sensors.kiwi.so:system/vendor/lib64/sensors.kiwi.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/lib_fpc_tac_shared.so:system/vendor/lib64/lib_fpc_tac_shared.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/lib_oeminfo_interface.so:system/vendor/lib64/lib_oeminfo_interface.so \
@@ -115,6 +117,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kiwi/proprietary/vendor/lib/egl/libRBGLESv1_CM_adreno.so:system/vendor/lib/egl/libRBGLESv1_CM_adreno.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/egl/libRBGLESv2_adreno.so:system/vendor/lib/egl/libRBGLESv2_adreno.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
+    vendor/huawei/kiwi/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
+    vendor/huawei/kiwi/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
@@ -553,6 +557,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kiwi/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so
 
 PRODUCT_PACKAGES += \
+    vendor.qti.hardware.fm@1.0 \
     libhuawei_secure \
     liboeminfo \
     libqmi_oem_api \
