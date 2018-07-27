@@ -55,8 +55,10 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kiwi/proprietary/vendor/firmware/venus.b04:system/vendor/firmware/venus.b04 \
     vendor/huawei/kiwi/proprietary/vendor/firmware/venus.mbn:system/vendor/firmware/venus.mbn \
     vendor/huawei/kiwi/proprietary/vendor/firmware/venus.mdt:system/vendor/firmware/venus.mdt \
+    vendor/huawei/kiwi/proprietary/vendor/etc/permissions/com.qualcomm.qti.Performance.xml:system/vendor/etc/permissions/com.qualcomm.qti.Performance.xml \
     vendor/huawei/kiwi/proprietary/vendor/etc/permissions/qcnvitems.xml:system/vendor/etc/permissions/qcnvitems.xml \
     vendor/huawei/kiwi/proprietary/vendor/etc/permissions/qcrilhook.xml:system/vendor/etc/permissions/qcrilhook.xml \
+    vendor/huawei/kiwi/proprietary/vendor/framework/QPerformance.jar:system/vendor/framework/QPerformance.jar \
     vendor/huawei/kiwi/proprietary/vendor/etc/sound_param/kiw/Bluetooth_cal.acdb:system/vendor/etc/sound_param/kiw/Bluetooth_cal.acdb \
     vendor/huawei/kiwi/proprietary/vendor/etc/sound_param/kiw/General_cal.acdb:system/vendor/etc/sound_param/kiw/General_cal.acdb \
     vendor/huawei/kiwi/proprietary/vendor/etc/sound_param/kiw/Global_cal.acdb:system/vendor/etc/sound_param/kiw/Global_cal.acdb \
@@ -453,6 +455,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kiwi/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
+    vendor/huawei/kiwi/proprietary/vendor/lib64/libqti_performance.so:system/vendor/lib64/libqti_performance.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
