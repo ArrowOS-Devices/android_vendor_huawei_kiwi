@@ -91,17 +91,6 @@ LOCAL_VENDOR_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmm-abl
-LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/vendor/lib64/libmm-abl.so
-LOCAL_MULTILIB := 64
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := TimeService
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/vendor/app/TimeService/TimeService.apk
