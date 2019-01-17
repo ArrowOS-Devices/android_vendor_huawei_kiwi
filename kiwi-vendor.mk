@@ -588,6 +588,7 @@ PRODUCT_PACKAGES += \
     libmdmdetect \
     libtime_genoff \
     libloc_api_v02 \
+    libloc_ds_api \
     TimeService \
     colorservice \
     qcrilmsgtunnel \
