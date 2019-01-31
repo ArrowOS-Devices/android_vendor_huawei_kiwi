@@ -86,7 +86,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kiwi/proprietary/vendor/etc/sound_param/kiw_l/nxp/Tfa9895-GK.cnt:system/vendor/etc/sound_param/kiw_l/nxp/Tfa9895-GK.cnt \
     vendor/huawei/kiwi/proprietary/vendor/etc/sound_param/kiw_l/nxp/Tfa9895.cnt:system/vendor/etc/sound_param/kiw_l/nxp/Tfa9895.cnt \
     vendor/huawei/kiwi/proprietary/vendor/etc/sound_param/kiw_l/nxp/Tfa9895_coefficient.config:system/vendor/etc/sound_param/kiw_l/nxp/Tfa9895_coefficient.config \
-    vendor/huawei/kiwi/proprietary/vendor/framework/QPerformance.jar:system/vendor/framework/QPerformance.jar \
     vendor/huawei/kiwi/proprietary/vendor/framework/com.qti.snapdragon.sdk.display.jar:system/vendor/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/huawei/kiwi/proprietary/global/ons/ons.bin:system/global/ons/ons.bin \
     vendor/huawei/kiwi/proprietary/vendor/lib/com.qualcomm.qti.ant@1.0.so:system/vendor/lib/com.qualcomm.qti.ant@1.0.so \
@@ -591,4 +590,5 @@ PRODUCT_PACKAGES += \
     qcnvitems \
     qcrilhook \
     qcrilmsgtunnel \
+    QPerformance \
     TimeService
