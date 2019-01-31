@@ -90,7 +90,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kiwi/proprietary/vendor/firmware/venus.mbn:system/vendor/firmware/venus.mbn \
     vendor/huawei/kiwi/proprietary/vendor/firmware/venus.mdt:system/vendor/firmware/venus.mdt \
     vendor/huawei/kiwi/proprietary/vendor/framework/com.qti.snapdragon.sdk.display.jar:system/vendor/framework/com.qti.snapdragon.sdk.display.jar \
-    vendor/huawei/kiwi/proprietary/vendor/framework/QPerformance.jar:system/vendor/framework/QPerformance.jar \
     vendor/huawei/kiwi/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
@@ -576,4 +575,5 @@ PRODUCT_PACKAGES += \
     qcnvitems \
     qcrilhook \
     qcrilmsgtunnel \
+    QPerformance \
     TimeService
